@@ -141,16 +141,18 @@ body {
 
 /* Hero Section */
 #hero {
-  background-image: url("img/hero4.png");
+  /* background-image: url("img/hero4.webp"); */
   height: 90vh;
   width: 100%;
-  background-size: cover;
-  background-position: top 25% right 0;
+  /* background-size: cover; */
+  /* background-position: top 25% right 0; */
   padding: 0 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  background-color: #f0f0f0;
+  /* Neutral fallback */
 }
 
 #hero h4 {
@@ -1233,15 +1235,17 @@ footer .copyright {
   /* cart page */
   #cart-add {
     flex-direction: column;
-}
-#coupon {
-  width: 100%;
-  margin-bottom: 30px;
-}
-#subtotal {
-  width: 100%;
-  padding: 20px;
-}
+  }
+
+  #coupon {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #subtotal {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width:300px) {
